@@ -5,13 +5,13 @@
 }
 
 body {
-    background: url('bg-desktop.webp') no-repeat center center fixed;
+    background: url('milky-way-starry-sky-night-sky-star-956999.jpeg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
 #container {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem;
@@ -67,6 +67,9 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg); /* Rotaciona a resposta */
     background-color: var(--card-back-color); /* Cor de fundo da resposta */
+    background-image: url('one-piece-1.jpg'); /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o cartão */
+    background-position: center; /* Centraliza a imagem */
 }
 
 .cartao__conteudo__resposta p {
