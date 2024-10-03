@@ -1,11 +1,11 @@
 :root {
     --text-color: #DBE4EF; /* Cor do texto */
-    --card-front-color: #144480; /* Cor do fundo do cartão */
-    --card-back-color: #00F4BF; /* Cor de fundo da resposta */
+    --card-front-color: #012a50; /* Cor do fundo do cartão */
+    --card-back-color: #26d8b1; /* Cor de fundo da resposta */
 }
 
 body {
-    background: url('fundo.jpeg') no-repeat center center fixed;
+    background: url('one-piece-episodio-1077.webp') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Bai Jamjuree', sans-serif;
 }
