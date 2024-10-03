@@ -22,31 +22,65 @@ function criaCartao(categoria, pergunta, resposta) {
     container.appendChild(cartao);
 }
 
-// Criação dos cartões
+// Criação dos cartões com perguntas de One Piece
 const flashcards = [
     {
-        categoria: 'Programação',
-        pergunta: 'O que é Python?',
-        resposta: 'O Python é uma linguagem de programação'
+        categoria: 'Personagens',
+        pergunta: 'Quem é o capitão dos Piratas do Chapéu de Palha?',
+        resposta: 'O capitão dos Piratas do Chapéu de Palha é Monkey D. Luffy.'
     },
     {
-        categoria: 'Geografia',
-        pergunta: 'Qual a capital da França?',
-        resposta: 'A capital da França é Paris'
+        categoria: 'Akuma no Mi',
+        pergunta: 'Qual é a fruta do diabo de Luffy?',
+        resposta: 'Luffy comeu a Gomu Gomu no Mi, que lhe dá poderes elásticos.'
     },
     {
-        categoria: 'Programação',
-        pergunta: 'O que é uma função?',
-        resposta: 'Uma função é um bloco de código que executa alguma tarefa'
+        categoria: 'Tripulação',
+        pergunta: 'Quem é o espadachim da tripulação dos Chapéus de Palha?',
+        resposta: 'O espadachim da tripulação é Roronoa Zoro.'
     },
     {
-        categoria: 'Lingua inglesa',
-        pergunta: 'Como se diz oi em Inglês?',
-        resposta: 'Oi em inglês é HI (RAI)'
+        categoria: 'Grand Line',
+        pergunta: 'Qual é o objetivo final de Luffy?',
+        resposta: 'O objetivo de Luffy é encontrar o One Piece e se tornar o Rei dos Piratas.'
     }
 ];
 
-// Chamada da função para criar os cartões
+// Chamada da função para criar os cartões de One Piece
 flashcards.forEach(cartao => {
+    criaCartao(cartao.categoria, cartao.pergunta, cartao.resposta);
+});
+
+// Novas perguntas sobre One Piece
+const novasPerguntas = [
+    {
+        categoria: 'Yonko',
+        pergunta: 'Quem são os quatro Yonko?',
+        resposta: 'Os quatro Yonko são Shanks, Kaido, Big Mom e Barba Negra.'
+    },
+    {
+        categoria: 'Marinha',
+        pergunta: 'Quem é o Almirante da Frota da Marinha?',
+        resposta: 'O Almirante da Frota é Sakazuki, também conhecido como Akainu.'
+    },
+    {
+        categoria: 'Aliança',
+        pergunta: 'Com quais piratas Luffy forma uma aliança durante o arco de Dressrosa?',
+        resposta: 'Luffy forma uma aliança com Trafalgar D. Water Law durante o arco de Dressrosa.'
+    },
+    {
+        categoria: 'Haki',
+        pergunta: 'Quantos tipos de Haki existem?',
+        resposta: 'Existem três tipos de Haki: Haki da Observação, Haki do Armamento e Haki do Rei.'
+    },
+    {
+        categoria: 'História',
+        pergunta: 'Quem foi o Rei dos Piratas?',
+        resposta: 'O Rei dos Piratas foi Gol D. Roger.'
+    }
+];
+
+// Chamada da função para criar os novos cartões de One Piece
+novasPerguntas.forEach(cartao => {
     criaCartao(cartao.categoria, cartao.pergunta, cartao.resposta);
 });
